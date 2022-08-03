@@ -6,5 +6,5 @@ import <%= name %> from '.'
 
 it('<%= name %>: renders', () => {
   const { container } = render(<<%= name %> />)
-  expect(container).toBeInDocument()
+  expect(container).toBeInTheDocument()
 })

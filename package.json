@@ -3,7 +3,7 @@
 	"version": "0.1.0",
 	"private": true,
 	"scripts": {
-		"test": "jest",
+		"test": "jest --config=\"./jest.config.js\"",
 		"test:coverage": "jest --coverage",
 		"test:watch": "jest --watch",
 		"test:debug": "node --inspect-brk ./node_modules/jest/bin/jest.js --runInBand --watch",
@@ -48,6 +48,7 @@
 		"husky": "^8.0.1",
 		"jest": "^28.1.3",
 		"jest-environment-jsdom": "^28.1.3",
+		"jest-extended": "^3.0.1",
 		"typescript": "4.7.4"
 	},
 	"resolutions": {
